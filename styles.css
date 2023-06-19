@@ -1,2 +1,22 @@
 
 /* Your CSS Code here. */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+td.total {
+  font-family: monospace;
+  text-align: right;
+  font-weight: bold;
+}
